@@ -1,3 +1,6 @@
+using System;
+using System.Windows.Forms;
+
 namespace Processing_Data_Crafter
 {
     internal static class Program
@@ -10,7 +13,6 @@ namespace Processing_Data_Crafter
         {
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
-            ApplicationConfiguration.Initialize();
             Application.Run(new Form1());
         }
     }

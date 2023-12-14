@@ -1,4 +1,7 @@
-﻿namespace Processing_Data_Crafter
+﻿using System.Drawing;
+using System.Windows.Forms;
+
+namespace Processing_Data_Crafter
 {
     partial class Form1
     {
