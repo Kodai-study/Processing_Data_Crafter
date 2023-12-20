@@ -55,12 +55,17 @@ namespace Processing_Data_Crafter
             this.button1 = new System.Windows.Forms.Button();
             this.htmlToolTip1 = new MetroFramework.Drawing.Html.HtmlToolTip();
             this.metroTile1 = new MetroFramework.Controls.MetroTile();
+            this.nightControlBox1 = new ReaLTaiizor.Controls.NightControlBox();
+            this.cyberButton1 = new ReaLTaiizor.Controls.CyberButton();
+            this.formTheme1 = new ReaLTaiizor.Forms.FormTheme();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
             this.SuspendLayout();
             // 
             // metroButton1
             // 
-            this.metroButton1.Location = new System.Drawing.Point(277, 386);
+            this.metroButton1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.metroButton1.Font = new System.Drawing.Font("小塚ゴシック Pr6N M", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.metroButton1.Location = new System.Drawing.Point(274, 386);
             this.metroButton1.Name = "metroButton1";
             this.metroButton1.Size = new System.Drawing.Size(75, 23);
             this.metroButton1.TabIndex = 0;
@@ -242,11 +247,95 @@ namespace Processing_Data_Crafter
             this.metroTile1.UseSelectable = true;
             this.metroTile1.Click += new System.EventHandler(this.metroTile1_Click);
             // 
+            // nightControlBox1
+            // 
+            this.nightControlBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.nightControlBox1.BackColor = System.Drawing.Color.Transparent;
+            this.nightControlBox1.CloseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.nightControlBox1.CloseHoverForeColor = System.Drawing.Color.White;
+            this.nightControlBox1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.nightControlBox1.DefaultLocation = true;
+            this.nightControlBox1.DisableMaximizeColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(105)))), ((int)(((byte)(105)))));
+            this.nightControlBox1.DisableMinimizeColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(105)))), ((int)(((byte)(105)))));
+            this.nightControlBox1.EnableCloseColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(160)))));
+            this.nightControlBox1.EnableMaximizeButton = true;
+            this.nightControlBox1.EnableMaximizeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(160)))));
+            this.nightControlBox1.EnableMinimizeButton = true;
+            this.nightControlBox1.EnableMinimizeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(160)))));
+            this.nightControlBox1.Location = new System.Drawing.Point(908, 0);
+            this.nightControlBox1.MaximizeHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.nightControlBox1.MaximizeHoverForeColor = System.Drawing.Color.White;
+            this.nightControlBox1.MinimizeHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.nightControlBox1.MinimizeHoverForeColor = System.Drawing.Color.White;
+            this.nightControlBox1.Name = "nightControlBox1";
+            this.nightControlBox1.Size = new System.Drawing.Size(139, 31);
+            this.nightControlBox1.TabIndex = 20;
+            // 
+            // cyberButton1
+            // 
+            this.cyberButton1.Alpha = 20;
+            this.cyberButton1.BackColor = System.Drawing.Color.Transparent;
+            this.cyberButton1.Background = true;
+            this.cyberButton1.Background_WidthPen = 4F;
+            this.cyberButton1.BackgroundPen = true;
+            this.cyberButton1.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
+            this.cyberButton1.ColorBackground_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
+            this.cyberButton1.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
+            this.cyberButton1.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(200)))), ((int)(((byte)(238)))));
+            this.cyberButton1.ColorLighting = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(200)))), ((int)(((byte)(238)))));
+            this.cyberButton1.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
+            this.cyberButton1.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
+            this.cyberButton1.CyberButtonStyle = ReaLTaiizor.Enum.Cyber.StateStyle.Custom;
+            this.cyberButton1.Effect_1 = true;
+            this.cyberButton1.Effect_1_ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(200)))), ((int)(((byte)(238)))));
+            this.cyberButton1.Effect_1_Transparency = 25;
+            this.cyberButton1.Effect_2 = true;
+            this.cyberButton1.Effect_2_ColorBackground = System.Drawing.Color.White;
+            this.cyberButton1.Effect_2_Transparency = 20;
+            this.cyberButton1.Font = new System.Drawing.Font("Arial", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.cyberButton1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(245)))), ((int)(((byte)(245)))));
+            this.cyberButton1.Lighting = false;
+            this.cyberButton1.LinearGradient_Background = false;
+            this.cyberButton1.LinearGradientPen = false;
+            this.cyberButton1.Location = new System.Drawing.Point(39, 140);
+            this.cyberButton1.Name = "cyberButton1";
+            this.cyberButton1.PenWidth = 15;
+            this.cyberButton1.Rounding = true;
+            this.cyberButton1.RoundingInt = 70;
+            this.cyberButton1.Size = new System.Drawing.Size(130, 50);
+            this.cyberButton1.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
+            this.cyberButton1.TabIndex = 21;
+            this.cyberButton1.Tag = "Cyber";
+            this.cyberButton1.TextButton = "CyberButton";
+            this.cyberButton1.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
+            this.cyberButton1.Timer_Effect_1 = 5;
+            this.cyberButton1.Timer_RGB = 300;
+            // 
+            // formTheme1
+            // 
+            this.formTheme1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(41)))), ((int)(((byte)(50)))));
+            this.formTheme1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.formTheme1.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.formTheme1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(142)))), ((int)(((byte)(142)))));
+            this.formTheme1.Location = new System.Drawing.Point(20, 60);
+            this.formTheme1.Name = "formTheme1";
+            this.formTheme1.Padding = new System.Windows.Forms.Padding(3, 28, 3, 28);
+            this.formTheme1.Sizable = true;
+            this.formTheme1.Size = new System.Drawing.Size(1007, 485);
+            this.formTheme1.SmartBounds = false;
+            this.formTheme1.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.formTheme1.TabIndex = 22;
+            this.formTheme1.Text = "formTheme1";
+            this.formTheme1.Click += new System.EventHandler(this.formTheme1_Click);
+            // 
             // MaterialTestForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1047, 565);
+            this.Controls.Add(this.formTheme1);
+            this.Controls.Add(this.cyberButton1);
+            this.Controls.Add(this.nightControlBox1);
             this.Controls.Add(this.metroTile1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.metroLink1);
@@ -267,8 +356,12 @@ namespace Processing_Data_Crafter
             this.Controls.Add(this.metroComboBox1);
             this.Controls.Add(this.metroButton1);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.MaximumSize = new System.Drawing.Size(1920, 1040);
+            this.MinimumSize = new System.Drawing.Size(126, 50);
             this.Name = "MaterialTestForm";
-            this.Text = "Form1";
+            this.ShowIcon = false;
+            this.Text = "formTheme1";
+            this.TransparencyKey = System.Drawing.Color.Fuchsia;
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -297,5 +390,8 @@ namespace Processing_Data_Crafter
         private Button button1;
         private MetroFramework.Drawing.Html.HtmlToolTip htmlToolTip1;
         private MetroFramework.Controls.MetroTile metroTile1;
+        private ReaLTaiizor.Controls.NightControlBox nightControlBox1;
+        private ReaLTaiizor.Controls.CyberButton cyberButton1;
+        private ReaLTaiizor.Forms.FormTheme formTheme1;
     }
 }
