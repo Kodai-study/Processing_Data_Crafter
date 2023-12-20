@@ -3,9 +3,9 @@ using System.Windows.Forms;
 
 namespace Processing_Data_Crafter
 {
-    public partial class Form1 : MetroForm
+    public partial class MaterialTestForm : MetroForm
     {
-        public Form1()
+        public MaterialTestForm()
         {
             InitializeComponent();
         }
@@ -41,6 +41,16 @@ namespace Processing_Data_Crafter
         }
 
         private void metroTile1_Click(object sender, System.EventArgs e)
+        {
+
+        }
+
+        private void metroGrid1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void metroDateTime1_ValueChanged(object sender, System.EventArgs e)
         {
 
         }

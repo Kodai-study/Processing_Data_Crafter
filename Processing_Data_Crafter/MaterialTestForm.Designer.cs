@@ -6,7 +6,7 @@ using MySqlConnector;
 
 namespace Processing_Data_Crafter
 {
-    partial class Form1
+    partial class MaterialTestForm
     {
         /// <summary>
         ///  Required designer variable.
@@ -157,6 +157,7 @@ namespace Processing_Data_Crafter
             this.metroDateTime1.Name = "metroDateTime1";
             this.metroDateTime1.Size = new System.Drawing.Size(200, 29);
             this.metroDateTime1.TabIndex = 9;
+            this.metroDateTime1.ValueChanged += new System.EventHandler(this.metroDateTime1_ValueChanged);
             // 
             // metroProgressBar2
             // 
@@ -185,7 +186,7 @@ namespace Processing_Data_Crafter
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(553, 356);
+            this.richTextBox1.Location = new System.Drawing.Point(597, 356);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(427, 186);
             this.richTextBox1.TabIndex = 13;
@@ -241,7 +242,7 @@ namespace Processing_Data_Crafter
             this.metroTile1.UseSelectable = true;
             this.metroTile1.Click += new System.EventHandler(this.metroTile1_Click);
             // 
-            // Form1
+            // MaterialTestForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -266,7 +267,7 @@ namespace Processing_Data_Crafter
             this.Controls.Add(this.metroComboBox1);
             this.Controls.Add(this.metroButton1);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.Name = "Form1";
+            this.Name = "MaterialTestForm";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
             this.ResumeLayout(false);
